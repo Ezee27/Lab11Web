@@ -1,4 +1,4 @@
-# 📘 **README – Praktikum 11 PHP OOP Lanjutan**
+# Praktikum 11 PHP OOP Lanjutan
 
 **Mata Kuliah:** Pemrograman Web1
 
@@ -319,9 +319,6 @@ include "template/footer.php";
 </body>
 </html>
 ```
-
-📷 **(Screenshot template)**
-
 ---
 
 # 📰 **7. Membuat Modul Artikel**
@@ -361,7 +358,7 @@ $data = $db->query("SELECT * FROM artikel");
 ```
 ---
 
-<img width="1919" height="364" alt="image" src="https://github.com/user-attachments/assets/584fb859-87de-482b-bad7-084028325e41" />
+<img width="1919" height="353" alt="image" src="https://github.com/user-attachments/assets/0146a19a-6d6f-48ae-8781-21bfed26ec61" />
 
 ---
 
@@ -391,8 +388,9 @@ $form->addField("isi", "Isi Artikel", "textarea");
 $form->displayForm();
 ?>
 ```
+---
 
-📷 **(Screenshot form tambah)**
+<img width="1919" height="493" alt="image" src="https://github.com/user-attachments/assets/6c349c9e-d505-461c-aaa2-105623aad8dd" />
 
 ---
 
@@ -427,8 +425,9 @@ $form->addField("isi", "Isi", "textarea");
 $form->displayForm();
 ?>
 ```
+---
 
-📷 **(Screenshot form edit)**
+<img width="1919" height="372" alt="image" src="https://github.com/user-attachments/assets/a53f6537-069d-4f00-98c9-9c7ba5337f18" />
 
 ---
 
@@ -441,8 +440,9 @@ CREATE TABLE artikel (
     isi TEXT
 );
 ```
+---
 
-📷 **(Screenshot phpMyAdmin)**
+<img width="643" height="353" alt="image" src="https://github.com/user-attachments/assets/6b2e06b4-f917-407c-9bc6-b4b42464c360" />
 
 ---
 
@@ -451,29 +451,17 @@ CREATE TABLE artikel (
 Pada praktikum ini, saya berhasil:
 
 ✔ Mengimplementasikan routing manual menggunakan `index.php`
+
 ✔ Membuat framework modular sederhana
+
 ✔ Menggunakan `Form` sebagai dynamic form builder
+
 ✔ Menggunakan Class `Database` untuk query CRUD
+
 ✔ Membuat modul artikel (tambah, tampil, ubah)
+
 ✔ Menggunakan template layout (header, sidebar, footer)
 
 Praktikum ini memperkenalkan konsep dasar bagaimana framework modern seperti Laravel atau CodeIgniter bekerja.
 
 ---
-
-# ✔ **10. Link Repository GitHub**
-
-**[https://github.com/username/Lab11Web](https://github.com/username/Lab11Web)**
-*ganti dengan URL repo kamu*
-
----
-
-# 🎉 Selesai!
-
-Kalau mau, aku bisa bantu:
-
-🔹 Buatkan screenshot otomatis (dummy)
-🔹 Rapikan README sesuai format kampus
-🔹 Buat template laporan PDF
-
-Cukup bilang: **"buatkan versi PDF"** atau **"rapikan lagi README-nya"**.
